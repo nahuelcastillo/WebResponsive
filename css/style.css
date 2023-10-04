@@ -1,0 +1,33 @@
+.navbar{
+    background-color: gray; !important
+}
+
+
+
+@media (max-width: 720px){
+
+ figure{
+    display: none;
+ }
+ #opcionBig{
+    display: none;
+ }
+
+}
+
+@media (min-width: 720px){
+
+    #Opcion{
+        display: none;
+        margin: 0%;
+    }
+
+}
+
+
+@media (max-width: 540px) {
+
+    .texto{
+        display: inline-block;
+    }
+}
